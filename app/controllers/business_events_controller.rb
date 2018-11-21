@@ -1,0 +1,2 @@
+class BusinessEventsController < ApplicationController
+end

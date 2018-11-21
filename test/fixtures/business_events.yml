@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  eventId: 1
+  businessId: 1
+  Business: one
+  Event: one
+
+two:
+  eventId: 1
+  businessId: 1
+  Business: two
+  Event: two
