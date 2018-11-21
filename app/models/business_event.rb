@@ -1,4 +1,4 @@
 class BusinessEvent < ApplicationRecord
-  belongs_to :Business
-  belongs_to :Event
+  belongs_to :business
+  belongs_to :event
 end
