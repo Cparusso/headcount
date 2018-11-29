@@ -1,5 +1,5 @@
 class BusinessEventsController < ApplicationController
-  before_action :find_businessEvent, only: [:show, :edit, :update, :destroy]
+  before_action :find_businessEvent, only: [:show]
 
   def index
     @businessEvents = BusinessEvent.all
