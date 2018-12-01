@@ -28,7 +28,8 @@ ActiveRecord::Schema.define(version: 2018_11_21_175838) do
     t.string "name"
     t.string "about"
     t.string "imageUrl"
-    t.float "location"
+    t.float "latitude"
+    t.float "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
