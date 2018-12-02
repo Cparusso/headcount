@@ -14,7 +14,7 @@ Business.create(name: 'Charlie\'s Place', about: 'This is Charlie\'s business', 
 Business.create(name: 'Brad\'s Place', about: 'This is Brad\'s business', imageUrl: 'notanimage.jpg', latitude: 42, longitude: -76)
 Business.create(name: 'Chad\'s Place', about: 'This is Chad\'s business', imageUrl: 'notanimage.jpg', latitude: 43, longitude: -77)
 
-Event.create(title: 'Afternoon Dog Walk', about: 'Walk some dogs', date: 20190611, time: '12:30')
+Event.create(title: 'Afternoon Dog Walk', about: 'Walk some dogs. Walk some dogs. Walk some dogs. Walk some dogs. Walk some dogs. Walk some dogs. Walk some dogs. Walk some dogs.', date: 20190611, time: '12:30')
 Event.create(title: 'Feed People', about: 'Feed some people', date: 20190611, time: '12:45')
 Event.create(title: 'Read Stories', about: 'Read to people', date: 20190611, time: '1:00')
 Event.create(title: 'Read More Stories', about: 'Read to more people', date: 20190611, time: '1:00')
