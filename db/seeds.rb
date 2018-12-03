@@ -6,9 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-User.create(name: 'Charlie', bio: 'It me', imageUrl: 'notanimage.jpg')
-User.create(name: 'Brad', bio: 'It Brad', imageUrl: 'notanimage.jpg')
-User.create(name: 'Chad', bio: 'It Chad', imageUrl: 'notanimage.jpg')
+User.create(name: 'Charlie', username: 'cparusso', password: '1', bio: 'It me', imageUrl: 'notanimage.jpg')
+User.create(name: 'Brad', username: 'bparusso', password: '2', bio: 'It Brad', imageUrl: 'notanimage.jpg')
+User.create(name: 'Chad', username: 'chparusso', password: '3', bio: 'It Chad', imageUrl: 'notanimage.jpg')
 
 Business.create(name: 'Charlie\'s Place', about: 'This is Charlie\'s business', imageUrl: 'notanimage.jpg', latitude: 41, longitude: -75)
 Business.create(name: 'Brad\'s Place', about: 'This is Brad\'s business', imageUrl: 'notanimage.jpg', latitude: 42, longitude: -76)
