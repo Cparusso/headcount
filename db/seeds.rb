@@ -10,9 +10,9 @@ User.create(name: 'Charlie', username: 'cparusso', password: '1', bio: 'It me', 
 User.create(name: 'Brad', username: 'bparusso', password: '2', bio: 'It Brad', imageUrl: 'notanimage.jpg')
 User.create(name: 'Chad', username: 'chparusso', password: '3', bio: 'It Chad', imageUrl: 'notanimage.jpg')
 
-Business.create(name: 'Charlie\'s Place', about: 'This is Charlie\'s business', imageUrl: 'notanimage.jpg', latitude: 41, longitude: -75)
-Business.create(name: 'Brad\'s Place', about: 'This is Brad\'s business', imageUrl: 'notanimage.jpg', latitude: 42, longitude: -76)
-Business.create(name: 'Chad\'s Place', about: 'This is Chad\'s business', imageUrl: 'notanimage.jpg', latitude: 43, longitude: -77)
+Business.create(name: 'Charlie\'s Place', about: 'This is Charlie\'s business', imageUrl: 'notanimage.jpg', latitude: 40.707554, longitude: -74.016882)
+Business.create(name: 'Brad\'s Place', about: 'This is Brad\'s business', imageUrl: 'notanimage.jpg', latitude: 40.705138, longitude: -74.011760)
+Business.create(name: 'Chad\'s Place', about: 'This is Chad\'s business', imageUrl: 'notanimage.jpg', latitude: 40.707147, longitude: -74.01237)
 
 Event.create(title: 'Afternoon Dog Walk', about: 'Walk some dogs. Walk some dogs. Walk some dogs. Walk some dogs. Walk some dogs. Walk some dogs. Walk some dogs. Walk some dogs.', date: 20190611, time: '12:30')
 Event.create(title: 'Feed People', about: 'Feed some people', date: 20190611, time: '12:45')

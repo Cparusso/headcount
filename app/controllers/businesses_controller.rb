@@ -1,4 +1,6 @@
 class BusinessesController < ApplicationController
+  skip_before_action :authorized, only: [:index, :show]
+
   def index
     @businesses = Business.all
     render :json => @businesses
