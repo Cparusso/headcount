@@ -1,4 +1,4 @@
-Please make sure that you have this repository running in tandem with the [frontend repo](https://github.com/Cparusso/headcount-react-frontend/edit/master/README.md)
+Please make sure that you have this repository running in tandem with the [frontend repo](https://github.com/Cparusso/headcount-react-frontend)
 
 To get started:
 
