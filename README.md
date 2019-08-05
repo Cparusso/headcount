@@ -1,9 +1,6 @@
-# README
+Please make sure that you have this repository running in tandem with the [frontend repo](https://github.com/Cparusso/headcount-react-frontend/edit/master/README.md)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+To get started:
 
 * `bundle install`
 
